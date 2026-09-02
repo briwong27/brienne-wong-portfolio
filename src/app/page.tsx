@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AboutSection } from "@/components/AboutSection";
 import { ProjectCard } from "@/components/ProjectCard";
 import { projects } from "@/content/projects";
 import { site } from "@/content/site";
@@ -32,6 +33,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <AboutSection />
     </div>
   );
 }

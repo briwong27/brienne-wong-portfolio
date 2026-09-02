@@ -68,9 +68,10 @@ a:hover {
 .wordmark {
   font-family: var(--font-display), Georgia, serif;
   font-size: 1.15rem;
-  font-weight: 560;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   text-decoration: none;
+  font-kerning: normal;
 }
 
 nav {
@@ -113,9 +114,10 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display), Georgia, serif;
-  font-weight: 560;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  font-kerning: normal;
 }
 
 h1 {
@@ -152,7 +154,7 @@ h3 {
   padding: 0.7rem 1.1rem;
   border-radius: 999px;
   text-decoration: none;
-  font-weight: 560;
+  font-weight: 600;
   border: 1px solid transparent;
 }
 
@@ -173,6 +175,10 @@ h3 {
 
 .section {
   padding: 2.5rem 0;
+}
+
+.about-section {
+  scroll-margin-top: 4.5rem;
 }
 
 .section-head {
@@ -347,7 +353,7 @@ label {
   display: grid;
   gap: 0.35rem;
   font-size: 0.9rem;
-  font-weight: 560;
+  font-weight: 600;
 }
 
 input,

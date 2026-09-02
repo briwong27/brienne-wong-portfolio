@@ -534,7 +534,7 @@ export const projects: Project[] = [
         ],
         figures: [
           {
-            src: "/projects/cms-migration/categories.png",
+            src: "/projects/cms-migration/categories.jpg",
             alt: "Database categories for the museum’s collection",
             caption: "Database categories for the museum’s collection.",
           },
